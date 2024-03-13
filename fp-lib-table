@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ov-twin")(type "KiCad")(uri "${KIPRJMOD}/parts/ov-twin.pretty")(options "")(descr ""))
+)
