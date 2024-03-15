@@ -1827,6 +1827,9 @@
   (junction (at 93.472 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 33652112-61b9-4c64-a5c3-ac6cb0993045)
   )
+  (junction (at 70.104 354.076) (diameter 0) (color 0 0 0 0)
+    (uuid 3608a6d3-c574-414e-86de-0fea6ea0bd1a)
+  )
   (junction (at 358.902 364.49) (diameter 0) (color 0 0 0 0)
     (uuid 367e4404-0b42-4565-b0e0-1190f55d3eb0)
   )
@@ -1913,6 +1916,9 @@
   )
   (junction (at 218.948 167.64) (diameter 0) (color 0 0 0 0)
     (uuid 84f41951-c17d-4cd0-9dd5-acd560444c4b)
+  )
+  (junction (at 70.104 351.536) (diameter 0) (color 0 0 0 0)
+    (uuid 855bde0c-9e64-4a3a-b618-25bb068ff5c9)
   )
   (junction (at 74.422 131.572) (diameter 0) (color 0 0 0 0)
     (uuid 869493ea-cb21-4fe8-9a26-a5885c95581a)
@@ -2416,6 +2422,10 @@
     (stroke (width 0) (type default))
     (uuid 4f85bb1f-e48e-460a-b144-665edaf54dc5)
   )
+  (wire (pts (xy 67.056 356.616) (xy 70.104 356.616))
+    (stroke (width 0) (type default))
+    (uuid 508bb2c7-75ac-470d-a7ee-ff2a036f3932)
+  )
   (wire (pts (xy 282.702 364.49) (xy 267.716 364.49))
     (stroke (width 0) (type default))
     (uuid 50c804cb-c2e2-4791-b1c8-7178fcd54d86)
@@ -2552,6 +2562,10 @@
     (stroke (width 0) (type default))
     (uuid 740dfaa5-5834-4c2d-ab55-238465e04638)
   )
+  (wire (pts (xy 67.056 351.536) (xy 70.104 351.536))
+    (stroke (width 0) (type default))
+    (uuid 74266603-3fb2-4fd9-8482-e677c9b4c8de)
+  )
   (wire (pts (xy 358.902 364.49) (xy 374.142 364.49))
     (stroke (width 0) (type default))
     (uuid 74292c79-33c3-4e7a-ac83-77a761fe08ea)
@@ -2664,6 +2678,10 @@
     (stroke (width 0) (type default))
     (uuid 931bceaf-221c-4cef-a5f8-612e252ca2f1)
   )
+  (wire (pts (xy 70.104 351.536) (xy 70.104 349.25))
+    (stroke (width 0) (type default))
+    (uuid 94102c7b-4dd3-48b4-8773-627de02f17d0)
+  )
   (wire (pts (xy 400.812 341.63) (xy 397.002 341.63))
     (stroke (width 0) (type default))
     (uuid 950cc950-b213-4be1-9e60-23e5401254ee)
@@ -2687,6 +2705,10 @@
   (wire (pts (xy 97.282 246.634) (xy 113.792 246.634))
     (stroke (width 0) (type default))
     (uuid 9a224fde-ca87-45e7-93ec-eeda537be585)
+  )
+  (wire (pts (xy 70.104 354.076) (xy 70.104 351.536))
+    (stroke (width 0) (type default))
+    (uuid 9bda16b2-ed93-408a-be61-765df2e655b1)
   )
   (wire (pts (xy 389.382 76.962) (xy 391.922 76.962))
     (stroke (width 0) (type default))
@@ -2920,9 +2942,17 @@
     (stroke (width 0) (type default))
     (uuid e5704a10-5025-4dce-b1df-479d06cd5caf)
   )
+  (wire (pts (xy 70.104 356.616) (xy 70.104 354.076))
+    (stroke (width 0) (type default))
+    (uuid e5bbe488-a224-49e0-bd68-9eadff0ce347)
+  )
   (wire (pts (xy 219.964 133.35) (xy 219.964 131.572))
     (stroke (width 0) (type default))
     (uuid e66aa8be-06d8-4c52-ba7c-44aff9b02ba5)
+  )
+  (wire (pts (xy 67.056 354.076) (xy 70.104 354.076))
+    (stroke (width 0) (type default))
+    (uuid e8fcdc1b-44be-48d5-9670-8d0cd3cf4967)
   )
   (wire (pts (xy 232.664 140.97) (xy 232.664 138.43))
     (stroke (width 0) (type default))
@@ -3017,6 +3047,16 @@
     (uuid ff246377-7742-4b66-99de-7fac176fb20c)
   )
 
+  (rectangle (start 19.812 65.024) (end 26.924 70.104)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 1353e5c4-d5bb-4bb5-8437-7f1a44b66af0)
+  )
+  (rectangle (start 19.812 70.104) (end 26.924 75.184)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 15e982e1-0d35-4b1b-bd4c-7f55ac30dd66)
+  )
   (rectangle (start 167.894 85.344) (end 175.006 90.424)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -3031,6 +3071,11 @@
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 6ed2585e-231d-43ed-8e5a-f05a2d694df8)
+  )
+  (rectangle (start 19.812 75.184) (end 26.924 85.09)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid b353bc18-ef2c-455a-9fb6-c1e01c00aa6e)
   )
   (rectangle (start 167.894 90.424) (end 175.006 100.33)
     (stroke (width 0) (type default))
@@ -3112,6 +3157,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 116cff9d-e718-4362-873a-2991997da7f2)
   )
+  (label "lis3dh-int2" (at 43.942 69.85 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 11e4c8e2-0ad8-4ee5-b0e3-35370aadac60)
+  )
   (label "pi-a-qspi-sd0" (at 113.792 244.094 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1686677d-dc49-4a51-bebb-93181f6457ae)
@@ -3128,6 +3177,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1ffbe7b5-c92b-44f0-9e1f-156f559c385c)
   )
+  (label "lis3dh-scl-spc" (at 43.942 80.01 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 229e8416-f8ef-46ab-842b-137649acff8a)
+  )
   (label "lis3dh-sdo-sa0" (at 59.436 311.404 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 264357ea-5d6c-42ad-980f-a83856f92163)
@@ -3140,9 +3193,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 28354d2d-8ae0-4ce7-bdac-043dee764c0b)
   )
+  (label "pi-b-sw-7" (at 43.942 49.53 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 29118d0d-24e1-462d-ab67-7da749cca97f)
+  )
   (label "lis3dh-sdo-sa0" (at 192.024 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 2aa41075-833c-4f0f-9459-07d95cd1ee1f)
+  )
+  (label "pi-b-sw-4" (at 43.942 57.15 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 2c814c06-0cf8-4cb1-9106-88acdcec4f3e)
   )
   (label "pi-b-sw-6" (at 181.61 325.882 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3208,6 +3269,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4b350204-9517-4a4c-9bd0-50ab081c67a4)
   )
+  (label "lis3dh-cs" (at 43.942 82.55 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 4dd395e6-fa4e-4d4b-bf5e-831896545b40)
+  )
   (label "pi-b-sw-1" (at 192.024 110.49 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 4fc468e2-4631-4d5b-8735-79f40cc387c4)
@@ -3236,9 +3301,17 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5f4f9d8e-33df-4226-a916-c27e4f87c1a7)
   )
+  (label "lis3dh-sdi-sda" (at 43.942 74.93 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 6626cc8e-54c2-499b-b1dc-3f93be82eca6)
+  )
   (label "pi-b-qspi-sd3" (at 255.524 97.79 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6632fa85-38d9-42aa-b329-68dc70633c83)
+  )
+  (label "pi-b-sw-2" (at 43.942 62.23 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 669853ff-6212-4123-9e1a-7a9cceda208e)
   )
   (label "lis3dh-sdi-sda" (at 192.024 90.17 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3247,6 +3320,10 @@
   (label "USB_D+" (at 355.6 129.032 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a835b0a-e4bd-4ba4-8c82-ff2b591645ba)
+  )
+  (label "pi-b-sw-3" (at 43.942 59.69 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 6a8ddcd6-7533-4705-aca3-4923969a03cc)
   )
   (label "pi-a-usb-dm" (at 372.11 158.242 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3268,6 +3345,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 74cbda7e-653b-4462-95a9-98fb47578ca7)
   )
+  (label "lis3dh-cs" (at 59.436 356.616 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 75e53ad8-5f26-44c4-abe3-2c0df52e6461)
+  )
   (label "lis3dh-cs" (at 192.024 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 76a392ed-67ec-42c7-8c8a-bbf28ba88965)
@@ -3275,6 +3356,10 @@
   (label "pi-a-tx-pi-b-rx" (at 43.942 100.33 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 773cbd86-52e6-44d0-8ca7-f505ebf712d8)
+  )
+  (label "pi-b-pot" (at 43.942 41.91 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 846e4f34-887e-4473-a5e3-534e041560d7)
   )
   (label "pi-b-sw-5" (at 181.61 315.468 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3287,6 +3372,10 @@
   (label "pi-a-rx-pi-b-tx" (at 192.024 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 8acb66e4-5c29-4b16-a02c-6cab4244845a)
+  )
+  (label "lis3dh-int1" (at 43.942 67.31 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 8b8bd609-7620-453c-8eff-a228fbc3eee1)
   )
   (label "USB_D-" (at 379.222 83.312 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3307,6 +3396,10 @@
   (label "pi-b-swclk" (at 255.524 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9a4e874f-9111-4a9c-a92d-9e6d4b74cc68)
+  )
+  (label "pi-b-sw-1" (at 43.942 64.77 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 9c904ac4-2171-4fcc-a92a-1316179a8f3e)
   )
   (label "pi-a-rx-pi-b-tx" (at 43.942 97.79 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3344,9 +3437,25 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid b5a7c4e5-e3d4-4b09-a0ef-3eccd13272fd)
   )
+  (label "pi-b-sw-5" (at 43.942 54.61 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b613de32-121f-4a99-905c-ecaf33c3ff20)
+  )
+  (label "pi-b-sw-8" (at 43.942 46.99 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b625945f-03f8-46c6-b22a-deceee7362c0)
+  )
   (label "pi-a-qspi-sd1" (at 107.442 102.87 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b8f50f32-5ad2-4329-9377-9b8b38175a5e)
+  )
+  (label "pi-b-sw-6" (at 43.942 52.07 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c0268009-e83e-453f-87fa-e5fbd0c44bb9)
+  )
+  (label "lis3dh-sdi-sda" (at 59.436 354.076 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c0b64725-050b-4516-a5d0-1c3612404400)
   )
   (label "smartled-3v3" (at 434.34 213.36 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3368,6 +3477,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cfe1d9cd-8ca5-4222-b606-4e3d033885ad)
   )
+  (label "lis3dh-sdo-sa0" (at 43.942 85.09 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid d4dbf8e2-1d85-400a-9a5c-6ab44ff8d90b)
+  )
   (label "pi-b-swdio" (at 43.942 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d828ed61-f9c7-4598-a162-54c1998eb472)
@@ -3383,6 +3496,10 @@
   (label "pi-a-usb-dp" (at 38.862 120.65 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid d8c54280-0721-4a5d-9437-1ee15ab5dd9a)
+  )
+  (label "lis3dh-scl-spc" (at 59.436 351.536 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid db19e549-f0f5-4e62-8120-0b9cd641b219)
   )
   (label "pi-a-swdio" (at 107.442 43.18 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3420,6 +3537,14 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid eb8affd7-4dbf-4351-88a9-25cc6f92f0ad)
   )
+  (label "lis3dh-scl-spc" (at 43.942 72.39 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid ee427912-9a8b-4fcd-9cc3-da7227feb1d4)
+  )
+  (label "lis3dh-sdi-sda" (at 43.942 77.47 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid ee7040d0-0d90-43ba-a059-a8800269b029)
+  )
   (label "pi-b-sw-4" (at 192.024 102.87 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid eeb0bc70-0395-4d6e-94fe-ac73461cbcc9)
@@ -3427,6 +3552,10 @@
   (label "pi-a-swclk" (at 107.442 45.72 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eef26809-d4ef-411f-8095-bd14b944c85f)
+  )
+  (label "smartled-3v3" (at 43.942 87.63 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid ef94ecb4-1340-4e79-a79f-2132f136a11e)
   )
   (label "pi-b-sw-5" (at 192.024 64.77 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3503,6 +3632,72 @@
       (project "ov-twin"
         (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
           (reference "C26") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 418.846 332.232 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 02e06080-86d7-46a9-9bf3-0fec3bcfb03f)
+    (property "Reference" "#PWR076" (at 418.846 336.042 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 418.846 327.914 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 418.846 332.232 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 418.846 332.232 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ab502d6d-71cb-41b3-b3bf-0cf53ca6793d))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR076") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 91.948 311.912 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 03a194b6-5030-402d-8101-c2dbd9998b57)
+    (property "Reference" "C37" (at 94.869 310.7436 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1u" (at 94.869 313.055 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 92.9132 315.722 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 91.948 311.912 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 737c1929-875b-4f9b-b16a-2216b4c0ac02))
+    (pin "2" (uuid 609334d5-f775-4856-874d-ebd0277339b0))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C37") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4477,6 +4672,108 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 419.1 315.214 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2fa80037-a307-49e2-a67d-ee7b9c048c08)
+    (property "Reference" "#PWR070" (at 419.1 319.024 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 419.1 310.896 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 419.1 315.214 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 419.1 315.214 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 25aeaf76-283d-42f8-9bc1-0f2500885ed8))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR070") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 431.038 336.296 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 31f0b9d6-cf80-4abe-9512-b731ffb277dd)
+    (property "Reference" "C43" (at 433.959 335.1276 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 433.959 337.439 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 432.0032 340.106 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 431.038 336.296 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7636f5c6-0a4d-4eea-9171-1ed531430c6f))
+    (pin "2" (uuid 33e58a33-7dd3-4f74-8af6-a26bfdb88973))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C43") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 418.846 353.822 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 329c1369-04bd-4c94-acb2-3420478743d9)
+    (property "Reference" "C44" (at 421.767 352.6536 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 421.767 354.965 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 419.8112 357.632 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 418.846 353.822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 296aacf7-b9a4-41e4-88d6-389b1834c367))
+    (pin "2" (uuid 039762f8-b89d-4421-b980-ae7b6f0d9320))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C44") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 95.631 222.758 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3440d8ad-411d-4c8e-bfac-32345bddd3ae)
@@ -4658,6 +4955,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 439.42 240.538 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3fe66ff7-4c27-4d10-9142-855668c56b7e)
+    (property "Reference" "#PWR071" (at 439.42 246.888 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 443.23 241.808 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 439.42 240.538 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 439.42 240.538 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d37cc057-8800-4a1c-b586-edff627f7ad8))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR071") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small") (at 189.484 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40e79285-8b62-4d84-878c-11b555b2a5ac)
@@ -4746,6 +5078,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 91.948 315.722 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 469ca035-c63a-48b9-af15-8906998886ae)
+    (property "Reference" "#PWR067" (at 91.948 322.072 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 95.758 316.992 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 91.948 315.722 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 91.948 315.722 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f0b03963-f7b5-4b0e-a418-c0894de27985))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR067") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:Crystal_GND24") (at 218.948 172.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4785720d-ad43-471f-bc5c-01cd1b07b53a)
@@ -4805,6 +5172,41 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 91.948 308.102 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4cf00e80-6fdb-40bb-af52-a19c42f6029d)
+    (property "Reference" "#PWR011" (at 91.948 311.912 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 92.329 303.7078 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 91.948 308.102 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 91.948 308.102 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aa02103b-5f43-42a9-bebc-d25d48904684))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 389.382 364.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e3e289a-854c-43b0-9b45-fc0a0ec89c90)
@@ -4825,6 +5227,42 @@
       (project "ov-twin"
         (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
           (reference "#PWR048") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 418.846 336.042 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 4eda12c2-0351-4e50-843e-f906d5f3473f)
+    (property "Reference" "C42" (at 421.767 334.8736 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 421.767 337.185 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 419.8112 339.852 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 418.846 336.042 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3d1ac2c3-bd52-406c-a39b-5219805f3073))
+    (pin "2" (uuid 3a433cf1-7cfe-4300-8cee-04be96ba19cb))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C42") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -5442,6 +5880,36 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 418.846 350.012 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 68fc01db-f447-4704-84cf-2608c2fba67b)
+    (property "Reference" "#PWR080" (at 418.846 353.822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 418.846 345.694 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 418.846 350.012 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 418.846 350.012 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 44b675c4-f46c-447e-929f-3ed8c30720fb))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR080") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 49.276 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6e86a342-eba9-4301-9111-219d9898d879)
@@ -5472,6 +5940,72 @@
       (project "RP2040_minimal"
         (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 439.42 236.728 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6eebb2ae-f0e7-4c05-92bc-1e8147f5d68a)
+    (property "Reference" "C39" (at 442.341 235.5596 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1u" (at 442.341 237.871 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 440.3852 240.538 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 439.42 236.728 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8af6c240-f656-451e-b8bb-0f52d3e4e8cb))
+    (pin "2" (uuid d8f61c76-509b-4b81-bddf-2ee25fa2d60c))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C39") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 431.038 332.486 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6f705edf-b2f9-488a-a81e-0603abba6933)
+    (property "Reference" "#PWR078" (at 431.038 336.296 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 431.038 328.168 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 431.038 332.486 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 431.038 332.486 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 55155c21-ce83-4a55-a818-d57fd2848a2b))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR078") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -5725,6 +6259,42 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 63.246 351.536 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 804c98ab-bf01-4a61-8fc0-e80de33d512f)
+    (property "Reference" "R18" (at 76.454 351.536 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 63.246 351.536 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 63.246 349.758 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.246 351.536 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8b03cb21-ffc9-4104-b148-8acd01d3fc75))
+    (pin "2" (uuid 0f578406-5461-4349-aa41-0d1612ad2435))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 69.342 231.394 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 808485ce-d307-48f9-8c01-17c0152c90e9)
@@ -5851,6 +6421,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 418.846 339.852 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 84506b0b-ac97-4e4a-939b-a9255216f9d7)
+    (property "Reference" "#PWR077" (at 418.846 346.202 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 415.036 341.122 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 418.846 339.852 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 418.846 339.852 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7d837636-c3da-45d5-81f1-9a9536d7022f))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR077") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "LED:WS2812B") (at 358.902 356.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84c15ce3-d90f-4da7-a250-5cb94d2a428f)
@@ -5904,6 +6509,42 @@
       (project "rs485-erdnuss"
         (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
           (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 63.246 354.076 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 85bb13d5-edc0-4ee0-bafa-5e8ee98654f0)
+    (property "Reference" "R19" (at 76.454 354.076 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 63.246 354.076 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 63.246 352.298 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.246 354.076 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 83450f92-2133-41bd-aff1-57e940c69874))
+    (pin "2" (uuid 9855f6c1-a5f6-4d1d-807a-11fd5092ff1b))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "R19") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -6111,6 +6752,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 428.498 240.284 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8c86833a-3ba5-4bdb-8d16-af4e3cbd952f)
+    (property "Reference" "#PWR069" (at 428.498 246.634 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 432.308 241.554 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 428.498 240.284 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 428.498 240.284 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 91dfadb6-47a5-4c40-a812-569ab7c97b5a))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR069") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 197.612 138.43 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c94ba39-a780-44a7-8dc1-62550d478365)
@@ -6250,6 +6926,36 @@
     )
   )
 
+  (symbol (lib_id "power:+5V") (at 439.42 232.918 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 938b2489-a36a-4343-ae61-ad32a65a6ecd)
+    (property "Reference" "#PWR072" (at 439.42 236.728 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 439.42 228.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 439.42 232.918 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 439.42 232.918 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ade4e1cc-b920-4cf4-943b-85cc61e4e022))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR072") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+5V") (at 421.64 203.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9686bd38-a395-4a98-8dee-e8dd978cd461)
@@ -6373,6 +7079,42 @@
       (project "RP2040_minimal"
         (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
           (reference "#PWR06") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 431.292 319.278 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 990a7f39-a4cd-48c0-8099-2285d24a2c56)
+    (property "Reference" "C41" (at 434.213 318.1096 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 434.213 320.421 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 432.2572 323.088 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 431.292 319.278 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c7c95c4a-b8ea-40e7-a825-4300e21985c1))
+    (pin "2" (uuid fc11d5c4-e08c-4921-bac6-4587727c8557))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C41") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -6899,6 +7641,41 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 428.498 232.664 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ad282c03-4697-477a-bcd4-7e17a932eabc)
+    (property "Reference" "#PWR068" (at 428.498 236.474 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 428.879 228.2698 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 428.498 232.664 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 428.498 232.664 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 600c1626-ed5f-4e3c-a69e-4b0a8d1faa41))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR068") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR063") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 71.882 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad62d190-2ce1-4e32-a87c-4480dceb15e2)
@@ -6920,6 +7697,42 @@
       (project "ov-twin"
         (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
           (reference "C5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 63.246 356.616 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ad6ec4ba-31e1-4e78-abfd-f39a735da83a)
+    (property "Reference" "R20" (at 76.454 356.616 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10k" (at 63.246 356.616 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 63.246 354.838 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 63.246 356.616 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6830405d-9788-4a99-8cdc-65f1e5c1e4aa))
+    (pin "2" (uuid 5db0c5d2-ad74-4e76-9445-a68b5f76119e))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "R20") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "R3") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -6955,6 +7768,77 @@
       (project "RP2040_minimal"
         (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
           (reference "#PWR010") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 431.038 353.822 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b0320030-c17b-4f60-9fc2-8ed822e6db54)
+    (property "Reference" "C45" (at 433.959 352.6536 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 433.959 354.965 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 432.0032 357.632 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 431.038 353.822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6b0ee3ef-b166-414a-b9e2-f540f9ce3ffd))
+    (pin "2" (uuid ef7a9f60-640f-46d6-b80a-4f4cc4d7a810))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C45") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 431.038 340.106 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b052393c-4353-4fbe-8b44-d97a2d294cb8)
+    (property "Reference" "#PWR079" (at 431.038 346.456 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 427.228 341.376 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 431.038 340.106 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 431.038 340.106 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 09ffe562-14b5-4fc4-836c-494996c3aea7))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR079") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -7271,6 +8155,42 @@
     )
   )
 
+  (symbol (lib_id "Device:C") (at 428.498 236.474 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b9f96681-80b7-4d19-b142-da8823120a57)
+    (property "Reference" "C38" (at 431.419 235.3056 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1u" (at 431.419 237.617 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 429.4632 240.284 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 428.498 236.474 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c08b6589-4e76-4146-8c4f-f7e448662e27))
+    (pin "2" (uuid 3016cc46-6fa1-42ad-a591-967351c8267e))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C38") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 366.522 202.438 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba3b86cc-54ac-42a7-8733-d7eb2d9bce52)
@@ -7356,6 +8276,36 @@
       (project "ov-twin"
         (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
           (reference "D12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 431.292 315.468 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bd3d890d-c142-478d-a4a7-d95131969a3e)
+    (property "Reference" "#PWR074" (at 431.292 319.278 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 431.292 311.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 431.292 315.468 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 431.292 315.468 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5f260cd0-f1be-4413-9a51-9a115f77a8ba))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR074") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -7528,6 +8478,41 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 70.104 349.25 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c1b8aa8e-1b0b-4585-8f59-abb88e6ae90c)
+    (property "Reference" "#PWR084" (at 70.104 353.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 70.485 344.8558 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 70.104 349.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 70.104 349.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid acb2348b-831e-4e68-bc38-b5e25a65b039))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR084") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C") (at 351.028 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c22ba046-576d-4852-9d2c-a49556785eff)
@@ -7589,6 +8574,41 @@
       (project "rs485-erdnuss"
         (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
           (reference "#PWR062") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 431.038 357.632 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c3072b92-d96e-4e62-9620-fbc2cf56d5ce)
+    (property "Reference" "#PWR083" (at 431.038 363.982 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 427.228 358.902 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 431.038 357.632 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 431.038 357.632 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid efe63f50-9192-4553-a24c-7e7266599dc7))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR083") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -7680,6 +8700,42 @@
       (project "ov-twin"
         (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
           (reference "C29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C") (at 419.1 319.024 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid c7870abe-9737-478f-8eca-0781715043f6)
+    (property "Reference" "C40" (at 422.021 317.8556 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10u" (at 422.021 320.167 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 420.0652 322.834 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 419.1 319.024 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 19784539-ac0b-465f-9eb5-cb47978b3ddd))
+    (pin "2" (uuid 7f221ce5-1c5c-42c6-97f1-ac4580848058))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "C40") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -8156,6 +9212,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 431.292 323.088 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid dff3e9f9-2336-4b81-88a6-465e87f87df2)
+    (property "Reference" "#PWR075" (at 431.292 329.438 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 427.482 324.358 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 431.292 323.088 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 431.292 323.088 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a53a0db8-4818-4254-aec3-8e54f83ee483))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR075") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 66.802 135.89 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e1079914-cd17-44b8-8e0a-f5f369f3c1ce)
@@ -8203,6 +9294,41 @@
       (project "ov-twin"
         (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
           (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 418.846 357.632 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ea11e268-7f7f-465b-8610-d9d774b76ed0)
+    (property "Reference" "#PWR081" (at 418.846 363.982 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 415.036 358.902 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 418.846 357.632 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 418.846 357.632 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f4e10302-8ea5-41cc-9eb4-d2d0076998fd))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR081") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -8488,6 +9614,41 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 419.1 322.834 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f4344f14-ba1f-485b-9760-cac2e0cccb96)
+    (property "Reference" "#PWR073" (at 419.1 329.184 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 415.29 324.104 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 419.1 322.834 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 419.1 322.834 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ff5f5232-7436-4c67-93a6-f83828cf1dc1))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR073") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR044") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 366.522 199.39 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f46baeae-e591-4024-a4da-5e7d1a4c9a67)
@@ -8738,6 +9899,36 @@
       (project "RP2040_minimal"
         (path "/f48b79aa-c447-42fa-a0bb-9fc3b3c08d49"
           (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 431.038 350.012 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid fb9ed815-4e44-44a3-940c-393cfb04edcc)
+    (property "Reference" "#PWR082" (at 431.038 353.822 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 431.038 345.694 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 431.038 350.012 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 431.038 350.012 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 35f5ebb7-15ec-4758-b2a7-ec160003f08c))
+    (instances
+      (project "ov-twin"
+        (path "/60e2e5e3-e5f9-4fec-bfb9-3f45c2159c8c"
+          (reference "#PWR082") (unit 1)
+        )
+      )
+      (project "rs485-erdnuss"
+        (path "/e243294f-244f-419e-a3d9-21bcdf38eb90"
+          (reference "#PWR062") (unit 1)
         )
       )
     )
